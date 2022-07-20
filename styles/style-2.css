@@ -125,8 +125,13 @@ a.menu {
     width: 312px;
     box-shadow: 0px 0px 1px #000000a1;
     height: 250px;
+    border-radius: 7px;
 }
-
+.live-upcoming-match:hover {
+    cursor: pointer;
+    background: #a79d9d80;
+    transition: .2s;
+}
 .match-box-img img {
     margin-bottom: 25px;
 }
